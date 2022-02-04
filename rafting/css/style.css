@@ -37,3 +37,22 @@ h6 {
     font-family: 'Dosis';
     font-style: normal;
 }
+
+.logo {
+    border: 1px solid rgb(40, 125, 236);
+    border-radius: 50%;
+    padding: 0.1rem;
+    margin: 0.1rem;
+}
+
+.heroimage {
+    margin: 0.5rem 0.5rem;
+}
+
+.mainimage1 {
+    margin: 0.5rem 0.5rem;
+}
+
+.mainimage2 {
+    margin: 0.5rem 0.5rem;
+}
