@@ -6,8 +6,9 @@
 body {
     background-color: #8eb8e5;
     font: #07090F;
-    font-family: ;
     font-size: 12px;
+    font-family: 'Open Sans';
+    font-style: normal;
 }
 
 a {
@@ -19,9 +20,20 @@ footer {
     background-color: darkgray;
     display: grid;
     justify-content: center;
+    align-items: center;
 }
 
 .page {
     max-width: 960px;
-    margin: 0 auto;
+    margin: 1rem auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Dosis';
+    font-style: normal;
 }
