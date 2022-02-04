@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #8eb8e5;
+    font: #07090F;
+    font-size: 12px;
+}
+
+a {
+    color: green;
+}
+
+header,
+footer {
+    background-color: darkgray;
+    display: grid;
+    justify-content: center;
+}
+
+.page {
+    max-width: 960px;
+    margin: 0 auto;
+}
