@@ -10,16 +10,12 @@ body {
     font-style: normal;
 }
 
-a {
-    color: green;
-}
-
-header,
-footer {
+header {
     background-color: darkgray;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
     align-items: center;
-    box-sizing: content-box;
+    justify-content: center;
     width: 100%;
     border: solid #5B6DCD 10px;
     padding: 10px;
@@ -50,16 +46,14 @@ h6 {
 
 .logo {
     border: 1px solid rgb(40, 125, 236);
+    align-self: center;
     border-radius: 50%;
     padding: 5px;
     margin: 5px;
 
 }
 
-.navigation {
-    display: flex;
-    margin-left: 39%;
-}
+.navigation {}
 
 .heroimage {
     justify-self: center;
@@ -99,21 +93,34 @@ h6 {
 }
 
 .links {
+
     text-decoration: none;
     font-size: medium;
     font-weight: bold;
     list-style: none;
-    display: inline-flex;
-    margin-right: 20px;
-
+    display: flex;
+    background-color: #8eb8e5;
+    text-align: center;
 }
 
+links a:hover::before {
+    background-color: darkgray;
+}
 
+links a {
+    color: green;
+}
+
+.footer {
+    background-color: darkgray;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    width: 100%;
+    border: solid #5B6DCD 10px;
+    padding: 10px;
+}
 
 .footer-social {
-    margin-left: 39%;
-}
-
-.copyright {
-    justify-content: left;
+    align-items: flex-end;
 }
