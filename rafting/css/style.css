@@ -19,9 +19,7 @@ a {
 header,
 footer {
     background-color: darkgray;
-    display: grid;
-    justify-content: center;
-    align-items: center;
+    height: 65px;
 }
 
 .page {
@@ -42,8 +40,10 @@ h6 {
 .logo {
     border: 1px solid rgb(40, 125, 236);
     border-radius: 50%;
-    padding: 0.1rem;
-    margin: 0.1rem;
+    padding: 5px;
+    margin: 5px;
+    position: absolute;
+    float: left;
 }
 
 .heroimage {
@@ -56,4 +56,22 @@ h6 {
 
 .mainimage2 {
     margin: 0.5rem 0.5rem;
+}
+
+.navigation {
+    position: relative;
+}
+
+.links {
+    font-size: medium;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+.footer-social {
+    justify-content: right;
+}
+
+.copyright {
+    justify-content: left;
 }
