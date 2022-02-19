@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #8eb8e5;
+    background-color: #5B6DCD;
     color: #07090F;
     font-size: 12px;
     font-family: 'Open Sans';
@@ -18,8 +18,11 @@ header,
 footer {
     background-color: darkgray;
     display: flex;
-    width: 1000px;
     align-items: center;
+    box-sizing: content-box;
+    width: 100%;
+    border: solid #5B6DCD 10px;
+    padding: 10px;
 }
 
 .page {
@@ -37,6 +40,13 @@ h6 {
     font-style: normal;
 }
 
+.main {
+    box-sizing: content-box;
+    width: 100%;
+    border: solid #5B6DCD 10px;
+    background-color: #8eb8e5;
+    padding: 10px;
+}
 
 .logo {
     border: 1px solid rgb(40, 125, 236);
@@ -47,6 +57,7 @@ h6 {
 }
 
 .navigation {
+    display: flex;
     margin-left: 39%;
 }
 
@@ -88,6 +99,7 @@ h6 {
 }
 
 .links {
+    text-decoration: none;
     font-size: medium;
     font-weight: bold;
     list-style: none;
