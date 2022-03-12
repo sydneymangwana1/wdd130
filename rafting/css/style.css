@@ -43,6 +43,8 @@ h6 {
     padding: 10px;
 }
 
+
+
 .logo {
     border: 1px solid rgb(40, 125, 236);
     align-self: center;
@@ -51,8 +53,6 @@ h6 {
     margin: 5px;
 
 }
-
-.navigation {}
 
 .heroimage {
     justify-self: center;
@@ -140,4 +140,34 @@ h6 {
 
 .footer-social {
     align-items: flex-end;
+}
+
+.contact-main {
+    box-sizing: content-box;
+    width: 100%;
+    border: solid #5B6DCD 10px;
+    background-color: #8eb8e5;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+
+.contact-heading {
+    justify-self: center;
+}
+
+.googlemaps {
+    grid-column-start: 1;
+    width: 60%;
+
+}
+
+.address {
+    grid-column-start: 2;
+
+}
+
+.email {
+    line-height: 50px;
 }
