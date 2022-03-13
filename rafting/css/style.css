@@ -128,11 +128,6 @@ h6 {
     background-color: darkgray;
 }
 
-.links a:active {
-    text-decoration: none;
-    background-color: rgb(235, 222, 48);
-}
-
 .footer {
     background-color: darkgray;
     display: grid;
@@ -164,9 +159,15 @@ h6 {
     border: solid #5B6DCD 10px;
     background-color: #8eb8e5;
     padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .contact-heading {
+    justify-self: center;
+}
+
+.about-us {
     justify-self: center;
 }
 
@@ -180,8 +181,4 @@ h6 {
 
 .email {
     line-height: 50px;
-}
-
-.about-us {
-    justify-self: center;
 }
