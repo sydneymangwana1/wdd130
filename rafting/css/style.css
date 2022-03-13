@@ -129,9 +129,8 @@ h6 {
 }
 
 .links a:active {
-    color: yellow;
     text-decoration: none;
-    background-color: rgb(169, 169, 169);
+    background-color: rgb(235, 222, 48);
 }
 
 .footer {
