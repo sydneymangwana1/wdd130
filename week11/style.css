@@ -23,6 +23,7 @@ label {
     display: inline-block;
     width: 90px;
     text-align: right;
+
 }
 
 input,
@@ -37,6 +38,8 @@ By default, textareas have a monospace font */
 
     /* Match form field borders */
     border: 1px solid #999;
+
+    padding: 8px;
 }
 
 input:focus,
