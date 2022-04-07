@@ -1,0 +1,99 @@
+* {
+    padding: 5px;
+}
+
+body {
+    background-color: gainsboro;
+    color: #07090F;
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+
+.header {
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: solid #5B6DCD 10px;
+
+    max-width: 1000px;
+    margin: 1rem auto;
+}
+
+.navigation {
+    background-color: #8eb8e5;
+    border: solid #8eb8e5 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+.links {
+
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    margin-left: 40%;
+}
+
+.links a {
+    display: block;
+    color: #07090F;
+    text-decoration: none;
+
+}
+
+.page {
+    max-width: 1000px;
+    margin: 1rem auto;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Dosis';
+    font-style: normal;
+}
+
+.logo {
+    border: 1px solid rgb(40, 125, 236);
+    align-self: center;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+.main {
+    background-color: #8eb8e5;
+    box-sizing: content-box;
+    width: 100%;
+    margin: 1rem auto;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+
+
+.footer {
+    max-width: 1000px;
+    margin: 1rem auto;
+    background-color: darkgray;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    width: 100%;
+    border: solid #5B6DCD 10px;
+    padding: 10px;
+}
+
+.footer-social {
+    align-items: flex-end;
+}
