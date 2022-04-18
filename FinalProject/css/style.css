@@ -39,7 +39,7 @@ h6 {
     box-sizing: content-box;
     width: 100%;
     border: solid #5B6DCD 10px;
-    background-color: #8eb8e5;
+    background: linear-gradient(to right, #8e9eab, #eef2f3);
     padding: 10px;
 }
 
@@ -179,4 +179,13 @@ h6 {
 
 .email {
     line-height: 50px;
+}
+
+.formbody {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: (your choice), sans-serif;
+    letter-spacing: 0.03em;
 }
